@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "lCpEzF4dKtTKYotZLxcsjsoGcuL7xoUt11Jc2jHK0Qs=",
+  "Source": "MiniProje.Api",
+  "BasePath": "_content/MiniProje.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

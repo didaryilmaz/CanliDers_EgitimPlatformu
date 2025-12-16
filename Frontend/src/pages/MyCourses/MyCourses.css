@@ -1,0 +1,17 @@
+.mycourses-container {
+  max-width: 420px;
+  margin: 40px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  font-family: system-ui, sans-serif;
+}
+
+.mycourse-item {
+  padding: 12px 0;
+  font-size: 15px;
+  font-weight: 500;
+  border-bottom: 1px solid #eee;
+  color: #0b1f3b;
+}

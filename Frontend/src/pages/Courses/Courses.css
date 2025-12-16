@@ -1,0 +1,95 @@
+.courses-wrapper {
+  max-width: 1100px;
+  margin: 40px auto;
+}
+
+.course-item {
+  display: flex;
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.course-image {
+  width: 240px;
+  height: 135px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.course-info {
+  flex: 1;
+}
+
+.course-info h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.desc {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.instructor {
+  font-size: 13px;
+  color: #777;
+}
+
+.meta {
+  font-size: 13px;
+  margin: 6px 0;
+  color: #333;
+}
+
+.meta span {
+  margin-left: 8px;
+  color: #666;
+}
+
+.tags {
+  margin-top: 6px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: #0b1f3b;
+  color: #fff;
+  margin-right: 6px;
+}
+
+.tag.light {
+  background-color: #e0f2fe;
+  color: #0369a1;
+}
+
+.course-price {
+  font-size: 20px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.course-price-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.add-cart-btn {
+  margin-top: 10px;
+  padding: 8px 14px;
+  background-color: #0b1f3b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-cart-btn:hover {
+  background-color: #0b1f3b;
+}

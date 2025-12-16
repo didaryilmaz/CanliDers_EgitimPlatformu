@@ -1,0 +1,30 @@
+.user-navbar {
+  display: flex;
+  gap: 15px;
+  padding: 15px 25px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.user-navbar button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #f3f3f3;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.user-navbar button:hover {
+  background-color: #e0e0e0;
+}
+
+.user-navbar .logout {
+  margin-left: auto;
+  background-color: #0b1f3b;
+  color: white;
+}
+
+.user-navbar .logout:hover {
+  background-color: #0b1f3b;
+}

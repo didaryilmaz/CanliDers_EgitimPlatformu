@@ -1,0 +1,103 @@
+.payment-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  background: #f6f7fb;
+}
+
+.payment-card {
+  width: 420px;
+  background: white;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  font-family: system-ui, sans-serif;
+}
+
+/* kurs bilgisi */
+.course-summary {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.course-summary img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.course-summary h3 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.course-summary .instructor {
+  font-size: 13px;
+  color: #666;
+}
+
+.course-summary .desc {
+  font-size: 13px;
+  color: #777;
+  margin: 6px 0;
+}
+
+.course-price {
+  font-weight: 600;
+  color: #0b1f3b;
+}
+
+/* buton & form */
+.apple-pay {
+  width: 100%;
+  background: #000;
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.divider {
+  text-align: center;
+  margin: 15px 0;
+  color: #999;
+  font-size: 14px;
+}
+
+label {
+  font-size: 13px;
+  margin-top: 10px;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 4px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.pay-btn {
+  margin-top: 20px;
+  width: 100%;
+  background: #0b1f3b;
+  color: white;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
