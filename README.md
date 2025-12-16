@@ -15,12 +15,12 @@ Frontend: Pages → Components → Services
 2. Ödeme Akışının Mantığı
 
 Projede ödeme simülasyonu kullanılmıştır.
-1. Kullanıcı eğitimleri listeler
-2. Bir eğitimi satın almak için ödeme ekranına yönlendirilir
-3. Ödeme başarıyla tamamlandığında:
-- Eğitim kullanıcıya atanır
-- Kullanıcı, eğitime erişim hakkı kazanır
-4. Backend tarafında ödeme sonucu doğrulanarak kayıt altına alınır
+- Kullanıcı eğitimleri listeler
+- Bir eğitimi satın almak için ödeme ekranına yönlendirilir
+- Ödeme başarıyla tamamlandığında:
+  - Eğitim kullanıcıya atanır
+  - Kullanıcı, eğitime erişim hakkı kazanır
+- Backend tarafında ödeme sonucu doğrulanarak kayıt altına alınır
   
 3. Eğitmen – Öğrenci Eşleştirme Mantığı
   
