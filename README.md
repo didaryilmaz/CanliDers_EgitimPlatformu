@@ -11,6 +11,7 @@ Frontend
 Mimari Yaklaşım
 Backend: Controller → Service → Data
 Frontend: Pages → Components → Services
+
 2. Ödeme Akışının Mantığı
 
 Projede ödeme simülasyonu kullanılmıştır.
@@ -20,17 +21,21 @@ Projede ödeme simülasyonu kullanılmıştır.
 - Eğitim kullanıcıya atanır
 - Kullanıcı, eğitime erişim hakkı kazanır
 4. Backend tarafında ödeme sonucu doğrulanarak kayıt altına alınır
+  
 3. Eğitmen – Öğrenci Eşleştirme Mantığı
+  
 1. Kullanıcı “Canlı Ders Talebi” oluşturur
 2. Sistem aktif ve uygun eğitmenleri listeler
 3. İlk uygun eğitmen otomatik olarak atanır
 4. Talep durumu Assigned olarak kaydedilir
-5. Eğitmen panelinde:
+5. . Eğitmen panelinde:
 - Sadece kendisine atanmış talepler görüntülenir
+  
 4. Gelecekte Ölçeklenebilirlik
 - In-Memory Data → SQL Server / PostgreSQL
 - SignalR ile gerçek zamanlı bildirimler
 - Mikroservis mimarisine geçiş (Payment, LiveLesson, User servisleri)
 - Docker, Redis ve performans iyileştirmeleri
+  
 5. Genel Değerlendirme
 Bu proje Udemy ve Uber mimarilerini birleştiren, ölçeklenebilir bir sistem sunmaktadır.
