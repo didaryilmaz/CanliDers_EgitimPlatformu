@@ -12,6 +12,7 @@ Mimari Yaklaşım
 Backend: Controller → Service → Data
 Frontend: Pages → Components → Services
 2. Ödeme Akışının Mantığı
+
 Projede ödeme simülasyonu kullanılmıştır.
 1. Kullanıcı eğitimleri listeler
 2. Bir eğitimi satın almak için ödeme ekranına yönlendirilir
