@@ -1,3 +1,21 @@
+## 📦 Project Setup
+
+Clone the repository and install dependencies for both frontend and backend:
+
+## ⚙️ Backend (NestJS)
+
+```bash
+cd Backend
+dotnet restore
+dotnet run
+```
+## 🎨 Frontend (React + TypeScript + Vite)
+
+```bash
+cd Frontend
+npm install
+```
+
 MiniProje – Canlı Ders & Eğitim Platformu
 1. Kullanılan Teknolojiler ve Nedenleri
 Backend
