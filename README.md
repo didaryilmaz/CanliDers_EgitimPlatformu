@@ -24,12 +24,12 @@ Projede ödeme simülasyonu kullanılmıştır.
   
 3. Eğitmen – Öğrenci Eşleştirme Mantığı
   
-1. Kullanıcı “Canlı Ders Talebi” oluşturur
-2. Sistem aktif ve uygun eğitmenleri listeler
-3. İlk uygun eğitmen otomatik olarak atanır
-4. Talep durumu Assigned olarak kaydedilir
-5. . Eğitmen panelinde:
-- Sadece kendisine atanmış talepler görüntülenir
+- Kullanıcı “Canlı Ders Talebi” oluşturur
+- Sistem aktif ve uygun eğitmenleri listeler
+- İlk uygun eğitmen otomatik olarak atanır
+- Talep durumu Assigned olarak kaydedilir
+- Eğitmen panelinde:
+  - Sadece kendisine atanmış talepler görüntülenir
   
 4. Gelecekte Ölçeklenebilirlik
 - In-Memory Data → SQL Server / PostgreSQL
